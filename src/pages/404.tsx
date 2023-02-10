@@ -7,7 +7,7 @@ const NotFound = () => {
         Sorry, Page Not Found
       </h2>
       <p className="text-xs text-gray-400 lg:text-sm">
-        Navigating using navbar on the left.
+        Please sidebar on the left for navigation
       </p>
     </div>
   );
