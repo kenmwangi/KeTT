@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
   # pull requests should target main branch
-  pull_requests:
+  pull_request:
     branches: [main]
 
 jobs:
