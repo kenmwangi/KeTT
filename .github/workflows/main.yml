@@ -1,0 +1,34 @@
+name: KeTT CI
+
+on:
+  # runs on pushes to main branch
+  push:
+    branches: [main]
+  # pull requests should target main branch
+  pull_requests:
+    branches: [main]
+
+jobs:
+  build:
+    # uses a Ubuntu Docker Image
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+          cache: "npm"
+      # Install dependencies
+      - run: npm ci
+      # Runnin an eslint
+      - run: npm run lint
+      # Running a prettier
+      - run: npm run prettier
+      # check for build errors
+      - run: npm run build
+      # run tests with Cypress
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
