@@ -1,29 +1,18 @@
-# Create T3 App
-
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
-
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
 # KeTT
+
+KeTT is a simulation of a professional work environment error-tracking tool. I intend to use this tool in my personal projects to record issues and work on them.
+
+## How I Plan to work on this project?
+
+- I got inspiration from [Profy.dev](https://profy.dev/article/react-projects-for-your-portfolio#use-the-readme-file-to-stand-out) React Job Simulator project.
+- I worked on tasks based on Github Workspaces.[Github Projects Kanban] ("/public/images/github-projects-kanban.png")
+- Heavily used feature branches and Pull Requests.
+
+## Choice for Tech Stack
+
+The project is scaffolded usin `T3 stack` because ift offered an ideal combinations for what I need for a fullstack project.
+
+1. Nextjs is King in fullstack development (personal opinion).
+2. Tailwind works well with responsiveness.
+3. Nextauth - for advanced functionalities.
+4. trpc- I intend to jump on this train later.
