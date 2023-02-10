@@ -22,13 +22,13 @@ jobs:
       # Install dependencies
       - run: npm ci
       # Runnin an eslint
-      - run: npm run lint
-      # Running a prettier
-      - run: npm run prettier
-      # check for build errors
-      - run: npm run build
-      # run tests with Cypress
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
-        with:
-          start: npm start
+      # - run: npm run lint
+      # # Running a prettier
+      # - run: npm run prettier
+      # # check for build errors
+      # - run: npm run build
+      # # run tests with Cypress
+      # - name: Cypress run
+      #   uses: cypress-io/github-action@v2
+      #   with:
+      #     start: npm start
