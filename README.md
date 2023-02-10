@@ -1,3 +1,5 @@
+[![KeTT CI](https://github.com/kenmwangi/KeTT/actions/workflows/main.yml/badge.svg)](https://github.com/kenmwangi/KeTT/actions/workflows/main.yml)
+
 # KeTT
 
 KeTT is a simulation of a professional work environment error-tracking tool. I intend to use this tool in my personal projects to record issues and work on them.
@@ -5,7 +7,7 @@ KeTT is a simulation of a professional work environment error-tracking tool. I i
 ## How I Plan to work on this project?
 
 - I got inspiration from [Profy.dev](https://profy.dev/article/react-projects-for-your-portfolio#use-the-readme-file-to-stand-out) React Job Simulator project.
-- I worked on tasks based on Github Workspaces.[Github Projects Kanban] ("/public/images/github-projects-kanban.png")
+- I worked on tasks based on Github Workspaces.[Github Projects Kanban] (/public/images/github-projects-kanban.png)
 - Heavily used feature branches and Pull Requests.
 
 ## Choice for Tech Stack
