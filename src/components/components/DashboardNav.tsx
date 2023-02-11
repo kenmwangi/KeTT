@@ -55,6 +55,18 @@ const DashboardNav = () => {
     setOpen(newState);
     localStorage.setItem(NAV_VISIBILITY, JSON.stringify(newState));
   };
+
+  React.useEffect(() => {
+    const navState = localStorage.getItem(NAV_VISIBILITY);
+    if (navState !== null) {
+      const newState = JSON.parse(navState);
+      setOpen(newState);
+      toggleNav(!newState);
+    } else {
+      setOpen(true);
+    }
+  }, []);
+
   return (
     <nav
       ref={navRef}
